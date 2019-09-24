@@ -6,4 +6,30 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+
+
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col>
+        <h1> Películas en Favoritos</h1>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
+
+  <div *ngFor="let categoria of favoritosPorGenero">
+  
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <h4>{{ categoria.name }}</h4>
+        </ion-col>
+      </ion-row>
+      <app-slideshow-poster [peliculas]="categoria.pelis" (refrescaLista)="actualizarFavoritos($event)"></app-slideshow-poster>
+    </ion-grid>
+  
+  </div>
+
+
+</ion-content>

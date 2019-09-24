@@ -1,0 +1,13 @@
+<ion-slides [options]="slidesOpts">
+    <ion-slide *ngFor="let pelicula of peliculas | filtroimagen">
+      <!-- Utilizar un ngIf no va a funcionar bien, porque me quita la imagen, pero no el espacio, por lo tanto va a 
+      quedar en el slice un espacio en blanco. Para hacerlo bien, en lugar del ngIf vamos a crear un flitro, y para 
+      eso vamos a crear un pipe. -->
+      
+      <ion-card (click)="verDetalle(pelicula.id)">
+        <img [src]="pelicula.backdrop_path | imagen">
+        <!-- tengo que importar el PipesModule desde ComponentsModule -->
+      </ion-card>
+
+    </ion-slide>
+  </ion-slides>

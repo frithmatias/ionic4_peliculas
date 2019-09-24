@@ -1,0 +1,46 @@
+{
+	"adult": false,
+	"backdrop_path": "/1TUg5pO1VZ4B0Q1amk3OlXvlpXV.jpg",
+	"belongs_to_collection": null,
+	"budget": 260000000,
+	"genres": [
+		{ "id": 12, "name": "Aventura" },
+		{ "id": 16, "name": "Animación" },
+		{ "id": 10751, "name": "Familia" },
+		{ "id": 18, "name": "Drama" },
+		{ "id": 28, "name": "Acción" }
+	],
+	"homepage": "https://movies.disney.com/the-lion-king-2019",
+	"id": 420818,
+	"imdb_id": "tt6105098",
+	"original_language": "en",
+	"original_title": "The Lion King",
+	"overview": "Un remake del clásico animado de Disney de 1994 'El rey león' que estará dirigido por Jon Favreu. Simba (Donald Glover) es el hijo del rey de los leones, Mufasa, y heredero de todo el reino. Pero cuando su padre es brutalmente asesinado por su tío Scar, decidirá huir, dejando vía libre para que su tío tome el puesto de su padre como líder de la manada. En su camino, Simba se encuentra con el suricato Timón y el jabalí Pumba, que le enseñarán a vivir la vida sin preocupaciones. Pero el joven león se verá obligado a decidir entre su vida libre de problemas o su destino como rey .",
+	"popularity": 373.836,
+	"poster_path": "/3A8ca8WOBacCRujSKJ2tCVKsieQ.jpg",
+	"production_companies": [
+		{
+			"id": 2,
+			"logo_path": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+			"name": "Walt Disney Pictures",
+			"origin_country": "US"
+		},
+		{
+			"id": 7297,
+			"logo_path": "/l29JYQVZbTcjZXoz4CUYFpKRmM3.png",
+			"name": "Fairview Entertainment",
+			"origin_country": ""
+		}
+	],
+	"production_countries": [ { "iso_3166_1": "US", "name": "United States of America" } ],
+	"release_date": "2019-07-12",
+	"revenue": 1023582142,
+	"runtime": 118,
+	"spoken_languages": [ { "iso_639_1": "en", "name": "English" } ],
+	"status": "Released",
+	"tagline": "",
+	"title": "El Rey León",
+	"video": false,
+	"vote_average": 7.2,
+	"vote_count": 1267
+}
